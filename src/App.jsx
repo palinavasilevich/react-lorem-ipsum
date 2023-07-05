@@ -6,7 +6,7 @@ import Form from "./components/Form";
 import data from "./data";
 
 const App = () => {
-  const [text, setText] = useState(data ? data.slice(0, 1) : []);
+  const [text, setText] = useState([]);
 
   const onSubmit = (count) => {
     let amount = parseInt(count);
